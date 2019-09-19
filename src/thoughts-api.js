@@ -7,7 +7,7 @@ router.use(bodyParser.json());
 
 const thoughts = [
   { _id: 123, message: "I love pizza.", author: "unknown" },
-  { _id: 456, message: "I'm watching Netflix", author: "unknown" },
+  { _id: 456, message: "I'm watching Netflix.", author: "unknown" },
 ];
 
 router.get("/api/thoughts", (req, res) => {

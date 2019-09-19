@@ -25,7 +25,7 @@ export default function ShareThought() {
     <Container>
       <Form onSubmit={submit}>
         <Form.Group>
-          <Form.Label>What is in your mind?</Form.Label>
+          <Form.Label>What's on your mind?</Form.Label>
           <Form.Control
             type="text"
             placeholder="Say something"
