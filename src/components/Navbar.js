@@ -6,7 +6,7 @@ import Nav from "react-bootstrap/Nav";
 export default function AppNavbar() {
   const navbarStyle = { marginBottom: "25px" };
   return (
-    <Navbar bg="light" expand="lg" style={navbarStyle}>
+    <Navbar expand="lg" style={navbarStyle}>
       <Container>
         <Navbar.Brand>
           <Link href="/">
@@ -16,9 +16,6 @@ export default function AppNavbar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Link href="/">
-              <a className="nav-link">Thoughts</a>
-            </Link>
             <Link href="/share-thought">
               <a className="nav-link">New Thought</a>
             </Link>
